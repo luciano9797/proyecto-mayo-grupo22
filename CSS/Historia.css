@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: ;
+   
 }
 
 @font-face {
@@ -9,7 +9,9 @@
     src: url(/FONTS/Vina_Sans/VinaSans-Regular.ttf);
 }
 
-.logo-container{}
+.logo-container{
+    background-color: #7F669D;
+}
 
 
 
