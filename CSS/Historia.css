@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: ;
+}
+
+@font-face {
+    font-family: "VinaSans";
+    src: url(/FONTS/Vina_Sans/VinaSans-Regular.ttf);
+}
+
+.logo-container{}
+
+
+
+.contenedor-VMV{
+    background-color: #7F669D;
+
+    display: grid;
+    grid-template-columns:400px 400px 600px;
+    grid-template-rows: 500px;
+    justify-content: center;
+    /* width: 500px; */
+
+}
+
+.vision-container,.mision-container, .valores-container{
+    
+    background-color: #DEBACE;
+    /*width: min-content;*/
+    border: black solid 1px  ;
+    padding: 10px;  
+    margin: 5%;
+    border-radius: 10px;
+}
+.img-VMV{
+    display: grid;
+    height: 150px;
+    width: auto;
+}
+
+.parraf{
+    font-size: large;
+    font-style: normal;
+    font-family: "VinaSans";
+
+}
