@@ -1,14 +1,17 @@
 *{
     padding: 0;
     margin: 0;
-   
+   font-family: "Pathway Extreme",sans-serif;
 }
 
 @font-face {
-    font-family: "VinaSans";
+    font-family: "Vina Sans";
     src: url(/FONTS/Vina_Sans/VinaSans-Regular.ttf);
 }
-
+@font-face {
+    font-family: "Pathway Extreme";
+    src: url(/FONTS/Pathway_Extreme/PathwayExtreme-Italic-VariableFont_opsz\,wdth\,wght.ttf);
+}
 .logo-container{
     background-color: #7F669D;
 }
@@ -16,10 +19,11 @@
 
 
 .contenedor-VMV{
+    height: auto;
     background-color: #7F669D;
 
     display: grid;
-    grid-template-columns:400px 400px 600px;
+    grid-template-columns:1fr 1fr 2fr;
     grid-template-rows: 500px;
     justify-content: center;
     /* width: 500px; */
@@ -31,8 +35,8 @@
     background-color: #DEBACE;
     /*width: min-content;*/
     border: black solid 1px  ;
-    padding: 10px;  
-    margin: 5%;
+    padding: 3px;  
+    margin: 10px;
     border-radius: 10px;
 }
 .img-VMV{
@@ -44,6 +48,7 @@
 .parraf{
     font-size: large;
     font-style: normal;
-    font-family: "VinaSans";
+    font-family: 'Pathway Extreme', sans-serif;
+    /* font-family: 'Vina Sans'; */
 
 }
