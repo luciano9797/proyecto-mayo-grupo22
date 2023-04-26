@@ -23,7 +23,7 @@
     background-color: #7F669D;
 
     display: grid;
-    grid-template-columns:1fr 1fr 2fr;
+    grid-template-columns:1fr 1fr 1.5fr;
     grid-template-rows: 500px;
     justify-content: center;
     /* width: 500px; */
@@ -45,9 +45,12 @@
     height: 200px;
     width: auto;
     border-radius: 50px;
+    margin: 5px;
 }
 
 .parraf{
+    margin: 3px;
+    text-align: justify;
     font-size: large;
     font-style: normal;
     font-family: 'Pathway Extreme', sans-serif;
