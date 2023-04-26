@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
    font-family: "Pathway Extreme",sans-serif;
+   background-image: url(/IMG/logo.png);
+   
 }
 
 @font-face {
@@ -12,10 +14,24 @@
     font-family: "Pathway Extreme";
     src: url(/FONTS/Pathway_Extreme/PathwayExtreme-Italic-VariableFont_opsz\,wdth\,wght.ttf);
 }
-.logo-container{
-    background-color: #7F669D;
-}
 
+
+.loguito:hover{
+    
+   -webkit-transform: rotateX(360deg);
+        transition: 2s;
+}
+.logo-container{
+    display: grid;
+    
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 250px;
+    background-color: #7F669D;
+
+}
+.loguito{
+    border-radius: 120px;
+}
 
 
 .contenedor-VMV{
@@ -33,7 +49,6 @@
 .vision-container,.mision-container, .valores-container{
     
     background-color: #DEBACE;
-    /*width: min-content;*/
     border: black solid 1px  ;
     padding: 3px;  
     margin: 10px;
