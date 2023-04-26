@@ -41,8 +41,10 @@
 }
 .img-VMV{
     display: grid;
-    height: 150px;
+    justify-content: center;
+    height: 200px;
     width: auto;
+    border-radius: 50px;
 }
 
 .parraf{
