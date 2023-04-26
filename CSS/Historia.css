@@ -17,8 +17,8 @@
 
 
 .loguito:hover{
-    
-   -webkit-transform: rotateX(360deg);
+    transform: rotate(360deg);
+   /* -webkit-transform: rotateX(360deg); */
         transition: 2s;
 }
 .logo-container{
