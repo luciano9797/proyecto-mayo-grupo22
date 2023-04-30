@@ -1,9 +1,9 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: content-box;
    font-family: "Pathway Extreme",sans-serif;
-   background-image: url(/IMG/logo.png);
-   
+      
 }
 
 @font-face {
@@ -18,49 +18,82 @@
 
 .loguito:hover{
     transform: rotate(360deg);
-   /* -webkit-transform: rotateX(360deg); */
-        transition: 2s;
-}
-.logo-container{
-    display: grid;
-    
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 250px;
-    background-color: #7F669D;
-
+    transition: 1s;
 }
 .loguito{
-    border-radius: 120px;
+    border-radius: 130px;
+    margin: 5px;
+}
+
+.logo-container{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    border: 2px double rgb(237, 71, 243);
+    /* grid-template-columns: 1fr 3fr; */
+    grid-template-rows: 260px;
+    background-color: #7F669D;
+}
+
+.banner{
+    height: 100px;
+    width: auto;
+    border: 2px solid rgb(237, 71, 243);
+    background-image: url(/IMG/banner1.jpg);
+    background-size: cover;
+    
+    animation-name: banner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes banner {
+      0%, 16%{background-image: url(/IMG/banner1.jpg);}     
+      21%, 37%{background-image: url(/IMG/banner2.jpg);}     
+      42%, 58%{background-image: url(/IMG/banner3.jpg);}     
+      63%, 79%{background-image: url(/IMG/banner4.jpg);}     
+      84%, 100%{background-image: url(/IMG/banner5.jpg);}     
+}
+
+
+.historia-container{
+    display: grid;
+    border: 2px double rgb(237, 71, 243);
+    background-color: #996ad3;
+    /* grid-template-columns: 1fr 3fr; */
+    grid-template-rows: 300px;
+    
+
 }
 
 
 .contenedor-VMV{
+    display: grid;
     height: auto;
     background-color: #7F669D;
-
-    display: grid;
+    
     grid-template-columns:1fr 1fr 1.5fr;
-    grid-template-rows: 500px;
+    grid-template-rows: 550px;
     justify-content: center;
-    /* width: 500px; */
+    width: auto;
 
 }
 
 .vision-container,.mision-container, .valores-container{
-    
+   
     background-color: #DEBACE;
-    border: black solid 1px  ;
+    border: 2px double rgb(237, 71, 243);
     padding: 3px;  
-    margin: 10px;
+    margin: 8px;
     border-radius: 10px;
 }
 .img-VMV{
     display: grid;
-    justify-content: center;
+    justify-content: center;    
     height: 200px;
     width: auto;
     border-radius: 50px;
-    margin: 5px;
+    margin: 7px;
 }
 
 .parraf{
