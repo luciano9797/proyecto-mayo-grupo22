@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    background-color: blueviolet;
     background-image: url(/img/logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: 30%;
+    background-repeat: repeat-x;
     background-position-x: center;
 }
 
@@ -14,4 +20,31 @@ body::after{
     height: 100%;
     background-color: rgb(255,255,255,0.5);
     z-index: -1;
+}
+
+form{
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 350px;
+    background-color: black;
+    color: blueviolet;
+    font-size: large;
+}
+
+input{
+    padding: 3px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    color: #999;
+}
+
+.field{
+    border: solid 1px #999;
+    padding: 2px;  
+}
+
+.field:focus{
+    border-color: blueviolet;
 }
