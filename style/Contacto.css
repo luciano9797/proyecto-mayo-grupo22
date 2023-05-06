@@ -22,18 +22,21 @@ body::after{
     z-index: -1;
 }
 
+fieldset{
+    padding: 10px;
+}
+
 form{
     border-radius: 5px;
     margin: 0 auto;
     padding: 10px;
-    width: 350px;
+    width: 400px;
     background-color: black;
-    color: blueviolet;
+    color: #7F669D;
     font-size: large;
 }
 
 input{
-    padding: 3px;
     border: 0;
     outline: none;
     background-color: black;
@@ -46,5 +49,24 @@ input{
 }
 
 .field:focus{
-    border-color: blueviolet;
+    border-color: #A080C6;
+}
+
+.btn-1{
+    margin: 0 auto;
+    display: flex;
+    padding: 15px 140px 15px 140px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.btn-1:hover{
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    background: #A080C6 ;
+    box-shadow: 0 0 1.5px #A080C6, 0 0 3px #A080C6, 0 0 6px #A080C6;
+    transition-delay: 0.2s;
 }
