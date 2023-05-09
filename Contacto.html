@@ -20,19 +20,19 @@
     </nav></header>
     
 <body>
-    <h2>Registrate para consultarnos o estar al tanto de las novedades.</h2>
+    <h2 id="titulo">Registrate para consultarnos o estar al tanto de las novedades.</h2>
     <br>
     <form action="">
-        <fieldset>
+        <fieldset class="fields">
             <legend>Datos Personales</legend>
             <div><label for="nombre">Nombre:</label>
-            <input class="field" type="text" name="nombre_ingresado" id="nombre" required></div>
+            <input class="inputtext" type="text" name="nombre_ingresado" id="nombre" required></div>
        
             <div style="padding: 3px;"><label for="apellido">Apellido:</label>
-            <input class="field" type="text" name="apellido_ingresado" id="apellido" required></div>
+            <input class="inputtext" type="text" name="apellido_ingresado" id="apellido" required></div>
 
             <div style="padding: 3px;"><label for="dni">DNI:</label>
-            <input class="field" type="number" name="dni_ingresado" id="dni" required></div>
+            <input class="inputtext" type="number" name="dni_ingresado" id="dni" required></div>
 
             <div style="padding: 3px;"><label for="genero">Genero:</label>
                 <input type="radio" name="genero_ingresado" value="hombre" required>Hombre
@@ -40,19 +40,19 @@
                 <input type="radio" name="genero_ingresado" value="hombre" required>Otro
             </div>
         </fieldset>
-        <fieldset>
+        <fieldset class="fields">
             <legend>Cuenta</legend>
             <div style="padding: 3px;" ><label for="usuario">Usuario:</label>
-            <input class="field" type="text" name="usuario_ingresado" id="usuario" required></div>
+            <input class="inputtext" type="text" name="usuario_ingresado" id="usuario" required></div>
 
             <div style="padding: 3px;"><label for="nacimiento">Fecha de nacimiento:</label>
-            <input class="field" type="date" name="nacimiento_ingresado" id="nacimiento" required></div>
+            <input class="inputtext" type="date" name="nacimiento_ingresado" id="nacimiento" required></div>
 
             <div style="padding: 3px;"><label for="mail">Correo electronico:</label>
-            <input class="field" type="email" name="mail_ingresado" id="mail" required></div>
+            <input class="inputtext" type="email" name="mail_ingresado" id="mail" required></div>
 
             <div style="padding: 3px;"><label for="password">Clave:</label>
-            <input class="field" type="password" name="password_ingresado" id="password" required></div>
+            <input class="inputtext" type="password" name="password_ingresado" id="password" required></div>
             
             <div class="midiv">
                 <button class="btn1">
@@ -63,7 +63,6 @@
                     Aceptar
                 </button>
             </div>
-            <!-- <div><input type="submit" value="Aceptar"></div> -->
         </fieldset>
     </form>   
 </body>
