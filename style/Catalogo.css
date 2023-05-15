@@ -58,9 +58,9 @@ nav a:hover{
 }
 
 .cart-icon{
-    margin-left: 65%;
+    display: flex;
+    margin-left: 95%;
     max-height: 30px;
-    padding-right: 15px;
 }
 
 
@@ -153,6 +153,10 @@ img{
     cursor: pointer;
 }
 
+.dolarhoy{
+    background-color: black;
+    color: #7F669D;
+}
 
 @media (max-width:700px){
     header{
@@ -170,6 +174,5 @@ img{
         padding-left: 35px;
         align-self: flex-end;
     }
-
 }
  

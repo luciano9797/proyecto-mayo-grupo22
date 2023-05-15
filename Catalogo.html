@@ -12,7 +12,6 @@
         <img src="/img/logo.png" alt="logoMediaHora" class="logo-img">
         <h2 class="logo-nombre">Media Hora</h2>
     </a>
-    <img src="/img/cart-shopping-solid.svg" alt="icon" class="cart-icon">
     <nav>
         <a href="Inicio.html" class="nav-link">Inicio</a>
         <a href="Productos.html" class="nav-link">Productos</a>
@@ -21,8 +20,10 @@
     </nav>
 </header>
 <body>
-    <div> <h1 style="text-align: center;">Nuestros Productos</h1></div><br><br>
-    <div class="dolarhoy"><h3 style="text-align: center;">Precio del dolar:</h3></div><br><br>  
+    <script src="/api/api_dolarhoy.js"></script>
+    <div> <h1 style="text-align: center;">Nuestros Productos </h1><figure class="cart-icon"><img src="/img/cart-shopping-solid.svg" alt="icon" ></figure></div>
+    <br><br>
+    <div class="dolarhoy"><h3 style="text-align: center;">Precio del dolar // venta: $<span id="venta"></span> // compra: $<span id="compra"></span></h3></div><br><br>  
     <!-- // Intentare aplicar una api para que actualice los precios segun el dolar, o al menos muestre el precio de dolar en pantalla // -->
     <div class="container-items">
         <div class="item">
