@@ -178,16 +178,19 @@ input{
 }
 
 .crearUsuario{
-    background-color: #999;
-    font-weight: 9002;
-    color: black;
     text-align: center;
     font-size: 80%;
 }
 
 #linkCuenta{
-    font-weight: 9002;
-    color: black;
+    font-weight: 300;
+    color: white;
+}
+
+#linkCuenta:hover{
+    font-size: 120%;
+    color: #7F669D;
+    text-decoration: dashed;
 }
 
 @media (max-width:700px){
