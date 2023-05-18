@@ -21,6 +21,9 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Pathway Extreme", sans-serif;
 }
 
 .logo:hover{
@@ -37,7 +40,7 @@ header{
     transition: 1s;
 }
 
-a{
+.navlink{
     font-family: "Pathway Extreme", sans-serif;
     font-weight: 600;
     padding-right: 10px;
@@ -46,6 +49,16 @@ a{
 }
 
 .navlink:hover{
+    color: black;
+}
+
+nav{
+    color: white;
+    display: flex;
+    font-family: "Pathway Extreme", sans-serif;
+}
+
+.vermas{
     color: black;
 }
 

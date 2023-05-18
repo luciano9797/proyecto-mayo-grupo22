@@ -9,19 +9,32 @@
     <link rel="stylesheet" href="/style/inicio.css">
     <title>Document</title>
 </head>
-<header>
-    <a href="#" class="logo">
-        <img src="/img/logo.png" alt="logoMediaHora" class="logo-img">
-        <h2 class="logo-nombre">Media Hora</h2>
-    </a>
-    <nav>
-        <a class="navlink" href="Productos.html" class="nav-link">Productos</a>
-        <a class="navlink" href="Historia.html" class="nav-link">Historia</a>
-        <a class="navlink" href="inicioSesion.html" class="nav-link">Cuenta</a>
-    </nav>
-</header>
-<body>
-    <!-- // Voy a intentar hacer un home con un carrusel que diriga a las demas paginas con algun resumen, aprovechando y usando bootstrap como framework //  -->
-    
-</body>
+ <!-- // Voy a intentar hacer un home con un carrusel que diriga a las demas paginas con algun resumen, aprovechando y usando bootstrap como framework //  -->
+    <body>
+        <header class="headerlinks">
+            <a href="#" class="logo">
+                <img src="/img/logo.png" alt="logoMediaHora" class="logo-img">
+                <h2 class="logo-nombre">Media Hora</h2>
+            </a>
+            <nav>
+                <a class="navlink" href="Productos.html" class="nav-link">Productos</a>
+                <a class="navlink" href="Historia.html" class="nav-link">Historia</a>
+                <a class="navlink" href="inicioSesion.html" class="nav-link">Cuenta</a>
+            </nav>
+        </header>
+        <section class="home">
+            <video class= "slidevideo" src="/vid/historia.mp4" autoplay muted loop></video>
+            <video class= "slidevideo" src="/vid/productos.mp4" autoplay muted loop></video>
+            <video class= "slidevideo" src="/vid/cuenta.mp4" autoplay muted loop></video>
+            <div class="content">
+                <h1>Nuestra Historia<br><span></span></h1>
+                <p>Resumen de la pagina</p>
+                <a class="vermas" href="#">Ver mas...</a>       
+               </div>
+            <div class="media-icons">
+                <a href="#">facebook<i class="fa-facebook"></i></a>
+                <a href="#">instagram<i class="instagram"></i></a>
+            </div>
+        </section>
+    </body>
 </html>
