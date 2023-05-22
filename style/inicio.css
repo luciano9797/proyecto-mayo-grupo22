@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Pathway Extreme";
+    src: url(/fonts/PathwayExtreme-VariableFont_opsz\,wdth\,wght.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: "Pathway Extreme", sans-serif;
+    display: flex;
+    min-height: 70px;
+    background-color: #7F669D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Pathway Extreme", sans-serif;
+}
+
+.logo:hover{
+    color: black;
+}
+
+.logo-img{
+    height: 70px;
+    margin-right: 10px;
+}
+
+.logo-img:hover{
+    rotate: 360deg;
+    transition: 1s;
+}
+
+.navlink{
+    font-family: "Pathway Extreme", sans-serif;
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navlink:hover{
+    color: black;
+}
+
+nav{
+    color: white;
+    display: flex;
+    font-family: "Pathway Extreme", sans-serif;
+}
+
+.vermas{
+    color: black;
+}
+
+nav{
+    color: white;
+    display: flex;
+    font-family: "Pathway Extreme", sans-serif;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+ 
