@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/inicioSesion.css">
+</head>
+<header>
+    <a href="#" class="logo">
+        <img src="/img/logo.png" alt="logoMediaHora" class="logo-img">
+        <h2 class="logo-nombre">Media Hora</h2>
+    </a>
+    <nav>
+        <a href="Inicio.html" class="nav-link">Inicio</a>
+        <a href="Productos.html" class="nav-link">Productos</a>
+        <a href="Historia.html" class="nav-link">Historia</a>
+    </nav>
+</header>
+<body>
+    <script src="/js/validacion.js"></script>
+    <br>
+    <form name="form" action="">
+        <fieldset class="fields">
+            <legend>Inicia Sesion</legend>
+            <div style="padding: 3px;" ><label for="usuario">Usuario:</label>
+            <input class="inputtext" type="text" name="usuario_ingresado" id="usuario" required></div>
+
+            <div style="padding: 3px;"><label for="password">Clave:</label>
+            <input class="inputtext" type="password" name="password_ingresado" id="password" required></div>
+            
+            <div class="midiv">
+                <button class="btn1" onclick=validarUsuario()>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Aceptar
+                </button>
+            </div>
+
+            <div class="crearUsuario"><a id="linkCuenta" href="crearUsuario.html">No tienes cuenta? Crea una aqui</a> </div>
+        </fieldset>
+    </form>   
+    
+</body>
+</html>

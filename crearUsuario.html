@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/crearUsuario.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <a href="#" class="logo">
+        <img src="/img/logo.png" alt="logoMediaHora" class="logo-img">
+        <h2 class="logo-nombre">Media Hora</h2>
+    </a>
+    <nav>
+        <a href="Inicio.html" class="nav-link">Inicio</a>
+        <a href="Productos.html" class="nav-link">Productos</a>
+        <a href="Historia.html" class="nav-link">Historia</a>
+    </nav>
+</header>
+    
+<body>
+    <script src="/js/validacion.js"></script>
+    <h2 id="titulo">Registrate para consultarnos o estar al tanto de las novedades.</h2>
+    <br>
+    <form name="form" action="">
+        <fieldset class="fields">
+            <legend>Datos Personales</legend>
+            <div><label for="nombre">Nombre:</label>
+            <input class="inputtext" type="text" name="nombre_ingresado" id="nombre" required></div>
+       
+            <div style="padding: 3px;"><label for="apellido">Apellido:</label>
+            <input class="inputtext" type="text" name="apellido_ingresado" id="apellido" required></div>
+
+            <div style="padding: 3px;"><label for="dni">DNI:</label>
+            <input class="inputtext" type="number" name="dni_ingresado" id="dni" required></div>
+
+            <div style="padding: 3px;"><label for="genero">Genero:</label>
+                <input type="radio" name="genero_ingresado" value="hombre" required>Hombre
+                <input type="radio" name="genero_ingresado" value="hombre" required>Mujer
+                <input type="radio" name="genero_ingresado" value="hombre" required>Otro
+            </div>
+        </fieldset>
+        <fieldset class="fields">
+            <legend>Cuenta</legend>
+            <div style="padding: 3px;" ><label for="usuario">Usuario:</label>
+            <input class="inputtext" type="text" name="usuario_ingresado" id="usuario" required></div>
+
+            <div style="padding: 3px;"><label for="nacimiento">Fecha de nacimiento:</label>
+            <input class="inputtext" type="date" name="nacimiento_ingresado" id="nacimiento" required></div>
+
+            <div style="padding: 3px;"><label for="mail">Correo electronico:</label>
+            <input class="inputtext" type="email" name="mail_ingresado" id="mail" required></div>
+
+            <div style="padding: 3px;"><label for="password">Clave:</label>
+            <input class="inputtext" type="password" name="password_ingresado" id="password" required></div>
+            
+            <div class="midiv">
+                <button class="btn1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Aceptar
+                </button>
+            </div>
+        </fieldset>
+    </form>   
+</body>
+</html>
