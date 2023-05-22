@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style/Catalogo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <a href="#" class="logo">
+        <img src="/img/logo.png" alt="logoMediaHora" class="logo-img">
+        <h2 class="logo-nombre">Media Hora</h2>
+    </a>
+    <nav>
+        <a href="Inicio.html" class="nav-link">Inicio</a>
+        <a href="Productos.html" class="nav-link">Productos</a>
+        <a href="Historia.html" class="nav-link">Historia</a>
+        <a href="Contacto.html" class="nav-link">Contacto</a>
+    </nav>
+</header>
+<body>
+    <script src="/api/api_dolarhoy.js"></script>
+    <div> <h1 style="text-align: center;">Nuestros Productos </h1><figure class="cart-icon"><img src="/img/cart-shopping-solid.svg" alt="icon" ></figure></div>
+    <br><br>
+    <div class="dolarhoy"><h3 style="text-align: center;">Precio del dolar // venta: $<span id="venta"></span> // compra: $<span id="compra"></span></h3></div><br><br>  
+    <!-- // Intentare aplicar una api para que actualice los precios segun el dolar, o al menos muestre el precio de dolar en pantalla // -->
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="/img/bonobon.png" alt="bonobon">
+            </figure>
+            <div class="info-item">
+                <h2>Caja Bonobon</h2>
+                <p class="precio">$xxx</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="/img/bubbaloo.png" alt="bubbaloo">
+            </figure>
+            <div class="info-item">
+                <h2>Caja Bubbaloo</h2>
+                <p class="precio">$xxx</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="/img/dolca.png" alt="dolca">
+            </figure>
+            <div class="info-item">
+                <h2>Caja Bananita Dolca</h2>
+                <p class="precio">$xxx</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="/img/fizz.png" alt="fizz">
+            </figure>
+            <div class="info-item">
+                <h2>Caja Caramelos Fizz</h2>
+                <p class="precio">$xxx</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="/img/mediahora.png" alt="mediahora">
+            </figure>
+            <div class="info-item">
+                <h2>Coleccion de la casa</h2>
+                <p class="precio">$xxx</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="/img/paraguitas.png" alt="paraguitas">
+            </figure>
+            <div class="info-item">
+                <h2>Caja Paragüitas</h2>
+                <p class="precio">$xxx</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="/img/sugus.png" alt="sugus">
+            </figure>
+            <div class="info-item">
+                <h2>Caja Sugus</h2>
+                <p class="precio">$xxx</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
