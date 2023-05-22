@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Pathway Extreme";
+    src: url(/FONTS/Pathway_Extreme/PathwayExtreme-Italic-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: "Pathway Extreme",sans-serif;
+      
+}
+
+
+body {
+    padding-top: 260px; /* agrego espacio arriba porque se me superpone todo*/
+  }
+
+nav {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 2
+    
+}
+
+nav a {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #000000;
+}
+
+
+
+.loguito{
+    border-radius: 130px;
+    margin: 5px;
+}
+.loguito:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
+.logo-container{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    border: 2px double rgb(237, 71, 243);
+    grid-template-rows: 260px;
+    background-color: #7F669D;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+
+
+
+.historia-container{
+   
+    display: grid;
+    border: 2px double rgb(237, 71, 243);
+    background-color: #996ad3;
+    grid-template-rows: 300px;
+    border-radius: 10px;
+
+    
+}
+.historia-container > p{
+    text-align: justify;
+    text-shadow: 1px;
+    margin: 5px;
+}
+.animada{
+    width: 330px;
+    height: 250px;
+    margin: 2px;
+    border-radius: 180px;
+
+}
+
+.contenedor-VMV{
+    display: grid;
+    height: auto;
+    background-color: #7F669D;
+    
+    grid-template-columns:1fr 1fr 1.5fr;
+    grid-template-rows: max-content;
+    justify-content: center;
+    width: auto;
+  
+
+}
+
+.vision-container,.mision-container, .valores-container{
+   
+    background-color: #DEBACE;
+    border: 2px double rgb(237, 71, 243);
+    padding: 3px;  
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.mision-container, .vision-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.img-VMV{
+    display: grid;
+    justify-content: center;    
+    height: 200px;
+    width: auto;
+    border-radius: 50px;
+    margin: 7px;
+}
+
+.parraf{
+    margin: 3px;
+    text-align: justify;
+    font-size: large;
+    font-style: normal;
+    font-family: 'Pathway Extreme', sans-serif;
+    
+}
+.politica-calidad-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 2fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    background-color: #E2F7F2;
+    padding: 20px;
+    margin-top: 50px;
+  }
+ .img-politica{
+    border-radius: 50px;
+    margin: 7px;
+ }
+  
+  .politica-calidad-container dt {
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .politica-calidad-container dd {
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 0px;
+  }
+  
+  .politica-calidad-container > dd {
+    background-color: #DEBACE;
+  }
+  
+  .politica-calidad-container > dt {
+    background-color: #7F669D;
+    color: #E2F7F2;
+  }
+  
+  .politica-calidad-container > dt,
+  .politica-calidad-container > dd {
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .politica-calidad-container p {
+    text-align: justify;
+  }
+
+  .politica-calidad-container .titulo2 {
+    display: grid;
+    align-content: center;
+    text-align: center;
+        
+  }
+  .titulo2{
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 20px;
+}
