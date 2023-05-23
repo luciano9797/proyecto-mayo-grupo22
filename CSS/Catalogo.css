@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Pathway Extreme";
+    src: url(/fonts/PathwayExtreme-VariableFont_opsz\,wdth\,wght.ttf)
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom:0;
+    right: 100;
+    
+    
+    z-index: 2
+}
