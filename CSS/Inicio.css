@@ -1,4 +1,65 @@
 
+@font-face {
+    font-family: "Pathway Extreme";
+    src: url(/FONTS/Pathway_Extreme/PathwayExtreme-Italic-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: "Pathway Extreme",sans-serif;
+      
+}
+
+.fechayhora{
+    color:#4d0b42;
+   
+}
+.horario{
+    display: flex;
+    justify-content: right;
+  }
+.fecha{
+    width: 12rem;
+    height: 2rem;
+    padding: 0.1rem;
+    border: solid;
+    border-radius: 0.4rem;
+    border-color: rgb(232, 134, 224);
+    background-color: rgb(209, 62, 238);
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight:600;
+    
+  } 
+
+  .hora{
+    width: 10rem;
+    height: 2rem;
+    padding: 0.1rem;
+    border: solid;
+    border-radius: 0.4rem;
+    border-color: rgb(232, 134, 224);
+    background-color: rgb(209, 62, 238);
+    margin-right: 2rem;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight:600;
+  }
+
+
+
+
+
+
+body {
+    padding-top: 60px; /* agrego espacio arriba porque se me superpone todo*/
+  }
+
+
+
 
 nav {
     position: fixed;
@@ -10,6 +71,7 @@ nav {
 }
 
 nav a {
+    
     font-weight: bold;
     font-style: italic;
     text-decoration: none;
@@ -22,4 +84,37 @@ nav a {
 
 nav a:hover {
     background-color: #000000;
+}
+
+.logo-img{
+    height: 200px;
+    border-radius: 130px;
+    margin: 5px;
+}
+.logo-img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
+.logo{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    border: 2px double rgb(237, 71, 243);
+    grid-template-rows: 220px;
+    background-color: #7F669D;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+.titulo2{
+ margin: auto;
+
 }

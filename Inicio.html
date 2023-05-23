@@ -16,16 +16,49 @@
 <!-- // Voy a intentar hacer un home con un carrusel que diriga a las demas paginas con algun resumen, aprovechando y usando bootstrap como framework //  -->
 
 <body>
+
+
+
+
+
+
+
     <header class="headerlinks">
         <a href="#" class="logo">
             <img src="img/logo.png" alt="logoMediaHora" class="logo-img">
-            <h2 class="logo-nombre">Media Hora</h2>
+            <h2 style="text-align: center;" class="titulo2">Media Hora</h2>
         </a>
         <nav>
             <a class="navlink" href="Catalogo.html" class="nav-link">Productos</a>
             <a class="navlink" href="Historia.html" class="nav-link">Historia</a>
             <a class="navlink" href="inicioSesion.html" class="nav-link">Contacto</a>
+        <!-- agrego fecha y hora mediante la API World Time API-->
+        
+        <section class="horario">
+            <div class="fecha">
+                <p> <i class="fa-regular fa-calendar-days"></i>
+                    Fecha:
+                    <span id="fecha" class="fechayhora" ></span>
+                    <script src="js/hora_usser.js"></script> 
+                </p>  
+            </div>
+
+            <div class="hora">
+                <p> <i class="fa-solid fa-clock"></i>
+                    Hora:
+                    <span id="hora" class="fechayhora"></span> 
+                    <script src="js/hora_usser.js"></script>
+                </p>
+            </div>
+        </section>
+        
+        
+        
+        
+        
         </nav>
+
+
     </header>
     <section class="home">
         <video class="slidevideo" src="/vid/historia.mp4" autoplay muted loop></video>
