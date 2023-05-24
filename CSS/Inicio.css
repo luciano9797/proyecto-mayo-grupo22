@@ -49,12 +49,50 @@
     font-weight:600;
   }
 
+.content{
+    background-image: url("/img/banner1.jpg");
+    background-color: #dc3beb60;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: top;
+    padding: 35px;
+    margin-top: 150px;
 
+}
 
+a img{
+    height: 200px;
+    border-radius: 150px;
+
+}
+
+h1{
+    
+    font-style: italic;
+}
+  .parraf{
+    
+    margin: 3px;
+    text-align: justify;
+    font-size: large;
+    font-style: normal;
+    font-family: 'Pathway Extreme', sans-serif;
+    
+}
 
 
 
 body {
+       
     padding-top: 60px; /* agrego espacio arriba porque se me superpone todo*/
   }
 
@@ -115,6 +153,25 @@ nav a:hover {
 }
 
 .titulo2{
- margin: auto;
+ 
+ color: #000000 ;
+ font-size: 65px;
+ font-style:oblique;
+ font-family: 'Pathway Extreme', sans-serif; 
+ justify-content: center;
 
+}
+.vermas{
+    color: black;
+}
+
+footer div {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 20px;
+    
 }
