@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "Pathway Extreme";
-    src: url(/FONTS/Pathway_Extreme/PathwayExtreme-Italic-VariableFont_opsz\,wdth\,wght.ttf);
+    src: url(/FONTS/PathwayExtreme-VariableFont_opsz\,wdth\,wght.ttf);
 }
 
 *{
@@ -44,13 +44,24 @@
     color:#4d0b42;
    
 }
+
+
+header{
+    font-family: "Pathway Extreme", sans-serif;
+    display: flex;
+    min-height: 70px;
+    background-color: #7F669D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 .horario{
     display: flex;
     justify-content: right;
   }
 .fecha{
     width: 12rem;
-    height: 2rem;
+    height: 1rem;
     padding: 0.1rem;
     border: solid;
     border-radius: 0.4rem;
@@ -65,7 +76,7 @@
 
   .hora{
     width: 10rem;
-    height: 2rem;
+    height: 1rem;
     padding: 0.1rem;
     border: solid;
     border-radius: 0.4rem;
@@ -78,8 +89,8 @@
   }
 
 .content{
-    background-image: url("/img/banner1.jpg");
-    background-color: #dc3beb60;
+    
+
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,13 +98,9 @@
     position: relative;
     
     
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 0.5fr;
-    grid-template-rows: auto;
     justify-content: center;
     align-content: top;
     padding: 35px;
-    margin-top: 150px;
 
 }
 
@@ -103,10 +110,6 @@ a img{
 
 }
 
-h1{
-    
-    font-style: italic;
-}
   .parraf{
     
     margin: 3px;
@@ -118,68 +121,58 @@ h1{
 }
 
 
-
-body {
-       
-    padding-top: 60px; /* agrego espacio arriba porque se me superpone todo*/
-  }
-
-
-
-
 nav {
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    z-index: 2
-    
+    padding-left: 10px;
 }
-
+    
 nav a {
     
-    font-weight: bold;
-    font-style: italic;
+    font-family: "Pathway Extreme", sans-serif;
+    font-weight: 600;
+    padding-right: 10px;
     text-decoration: none;
-    color: #ffffff;
-    transition: background-color 0.3s ease-in-out;
-    display: inline-block;
-    padding: 10px;
-    margin: 0 10px;
+    color: #FFF;    
+    
 }
 
 nav a:hover {
     background-color: #000000;
 }
 
-.logo-img{
-    height: 200px;
-    border-radius: 130px;
-    margin: 5px;
+.nu-his{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.logo:hover{
+    color: black;
+}
+
+.logo-img{
+    height: 70px;
+    margin-right: 10px;
+}
+
 .logo-img:hover{
-    transform: rotate(360deg);
+    rotate: 360deg;
     transition: 1s;
 }
 
-
-.logo{
-    display: grid;
-    margin: auto;
-    justify-content: center;
-    border: 2px double rgb(237, 71, 243);
-    grid-template-rows: 220px;
-    background-color: #7F669D;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-
-
+.logo-nombre{
+    font-weight: bold;
+    font-size: 1.5em;
 }
-
+.slidevideo{
+    width: 100%;
+}
 .titulo2{
  
  color: #000000 ;
@@ -190,7 +183,18 @@ nav a:hover {
 
 }
 .vermas{
-    color: black;
+    display: block;
+    padding: 10px;
+    width:20%;
+    margin: auto;
+    border:black;
+    border-style: inset;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #af83e6;
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 
 footer div {

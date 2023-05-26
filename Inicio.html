@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="CSS/Inicio.css">
     <!-- <link rel="stylesheet" href="style/inicio.css"> -->
     <title>Inicio-Media Hora</title>
-    
+
     <!-- para el boton de whatsapp -->
     <script src="https://kit.fontawesome.com/812da633dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="img/whatsapp.svg">
@@ -26,26 +26,23 @@
 <body>
     <header class="headerlinks">
         <a href="#" class="logo">
-            <img src="img/logo.png" alt="logoMediaHora" class="logo-img">
-           <div >
-            <h2 class="titulo2" style="text-align: center;" >Media Hora</h2>
-           </div>
-            
-        </a> 
-        
+            <img src="img/logo.png" class="logo-img">
+            <h2 class="logo-nombre">Media Hora</h2>
+        </a>
+
         <!-- botón de whatsapp -->
         <a class="btn-wsp"   target="_blank" href="https://wa.me/541131057366?text=Hola,%20estoy%20interesado%20en%20los%20productos,%20%C2%BFpueden%20decirme%20m%C3%A1s%20sobre%20las%20zonas%20de%20entrega%20y%20costos?">
             <i class="fa-brands fa-whatsapp"></i>
-            
+
         </a>
         <!-- FIN botón de whatsapp -->
         <nav>
-            <a class="navlink" href="Catalogo.html" class="nav-link">Productos</a>
-            <a class="navlink" href="Historia.html" class="nav-link">Historia</a>
-            <a class="navlink" href="inicioSesion.html" class="nav-link">Contacto</a>
+            <a class="navlink" href="Catalogo.html" >Productos</a>
+            <a class="navlink" href="Historia.html" >Historia</a>
+            <a class="navlink" href="inicioSesion.html" >Contacto</a>
             <!-- agrego fecha y hora mediante la API World Time API-->
 
-            <section class="horario">
+            <div class="horario">
                 <div class="fecha">
                     <p> <i class="fa-regular fa-calendar-days"></i>
                         Fecha:
@@ -61,31 +58,35 @@
                         <script src="js/hora_usser.js"></script>
                     </p>
                 </div>
-            </section>
+            </div>
 
 
         </nav>
 
-       
+
 
     </header>
     <section class="home">
         <video class="slidevideo" src="/vid/historia.mp4" autoplay muted loop></video>
-        <video class="slidevideo" src="/vid/productos.mp4" autoplay muted loop></video>
-        <video class="slidevideo" src="/vid/cuenta.mp4" autoplay muted loop></video>
+        <!-- <video class="slidevideo" src="/vid/productos.mp4" autoplay muted loop></video>
+        <video class="slidevideo" src="/vid/cuenta.mp4" autoplay muted loop></video> -->
+        <div class="nu-his">
+            <h2>Nuestra Historia</h2>
+        </div>
+       
         <div class="content">
-            <h1>Nuestra Historia<br><span></span></h1>
+           
             <p class="parraf">Desde hace 30 años, nuestro distribuidor de golosinas ha estado sirviendo a Argentina con una amplia
                 selección de productos deliciosos. Con una historia llena de crecimiento, innovación y dedicación,
                 nuestra empresa se ha convertido en una referencia para los amantes de las golosinas en todo el país.
             </p>
-            <a class="vermas" href="Historia.html">Ver mas...👉🏻 
-                <img class= "animada"src="img/animada.gif" alt="Conocenos" style="text-align:start;" >
+            <a class="vermas" href="Historia.html">Ver mas &nbsp  &nbsp 👉🏻
+                <!-- <img class= "animada"src="img/animada.gif" alt="Conocenos" style="text-align:start;" > -->
             </a>
-        </div>
         <div class="media-icons">
-            <a href="#">facebook<i class="fa-facebook"></i></a>
-            <a href="#">instagram<i class="instagram"></i></a>
+            
+            <!-- <a href="#">facebook<i class="fa-facebook"></i></a>
+            <a href="#">instagram<i class="instagram"></i></a> -->
         </div>
     </section>
 </body>
