@@ -53,7 +53,7 @@ nav a:hover {
 
 
 .logo-container{
-    display: grid;
+    
     margin: auto;
     justify-content: center;
     border: 2px double rgb(237, 71, 243);
