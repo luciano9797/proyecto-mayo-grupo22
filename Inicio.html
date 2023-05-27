@@ -11,6 +11,7 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/Inicio.css">
+    <script src="https://kit.fontawesome.com/c22bdf4c92.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="style/inicio.css"> -->
     <title>Inicio-Media Hora</title>
 
@@ -31,15 +32,16 @@
         </a>
 
         <!-- botón de whatsapp -->
-        <a class="btn-wsp"   target="_blank" href="https://wa.me/541131057366?text=Hola,%20estoy%20interesado%20en%20los%20productos,%20%C2%BFpueden%20decirme%20m%C3%A1s%20sobre%20las%20zonas%20de%20entrega%20y%20costos?">
+        <a class="btn-wsp" target="_blank"
+            href="https://wa.me/541131057366?text=Hola,%20estoy%20interesado%20en%20los%20productos,%20%C2%BFpueden%20decirme%20m%C3%A1s%20sobre%20las%20zonas%20de%20entrega%20y%20costos?">
             <i class="fa-brands fa-whatsapp"></i>
 
         </a>
         <!-- FIN botón de whatsapp -->
         <nav>
-            <a class="navlink" href="Catalogo.html" >Productos</a>
-            <a class="navlink" href="Historia.html" >Historia</a>
-            <a class="navlink" href="inicioSesion.html" >Contacto</a>
+            <a href="Historia.html" class="nav-link">Historia</a>
+            <a href="Catalogo.html" class="nav-link">Catálogo</a>
+            <a href="inicioSesion.html" class="nav-link">Contacto</a>
             <!-- agrego fecha y hora mediante la API World Time API-->
 
             <div class="horario">
@@ -67,27 +69,119 @@
 
     </header>
     <section class="home">
-        <video class="slidevideo" src="/vid/historia.mp4" autoplay muted loop></video>
+        <section class="no-parallax">
+
+            <div class="contenedor1">
+                <div class="slider-contenedor">
+                    <div class="slider-test">
+                        <img class="imagenProducto" src="/Img/Carrusel 2.jpg" alt="Mogul">
+
+                    </div>
+
+                    <div class="slider-test">
+                        <img class="imagenProducto" src="/Img/Carrusel 3.jpg" alt="Tembleke">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            
+            <div><br><br></div>
+            <div class="titulo1">
+            <div class="punta1"></div>
+            <h3 id="title-ofertas">Ofertas y promociones</h3><br>
+            <div class="punta2"></div>
+        </div>
+            <div><br><br></div>
+            <div class="container-items">
+                <div class="item">
+                    <h3 class="oferta">Oferta!</h3>
+                    <figure>
+                        <img src="img/guayma.png" alt="guaymallen">
+                    </figure>
+                    <div class="info-item">
+                        <h3>Caja Guaymallen</h3>
+                        <p class="precio">$xxx</p>
+                        <button> <i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="oferta">Oferta!</h3>
+                    <figure>
+                        <img src="img/beldent.webp" alt="beldent">
+                    </figure>
+                    <div class="info-item">
+                        <h3>Caja beldent</h3>
+                        <p class="precio">$xxx</p>
+                        <button> <i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="oferta">Oferta!</h3>
+                    <figure>
+                        <img src="img/flynn-paff.webp" alt="flynn-paff">
+                    </figure>
+                    <div class="info-item">
+                        <h3>flynn-paff</h3>
+                        <p class="precio">$xxx</p>
+                        <button> <i class="fas fa-shopping-cart"></i>Añadir al carrito</button>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            <div><br><br></div>
+        
+        </section>
+        <section class="parallax bg">
+            <div id="historia">
+
+                <div class="nu-his">
+                    <h2>Nuestra Historia</h2>
+                </div>
+
+                <div class="content">
+
+                    <p class="parraf">Desde hace 30 años, nuestro distribuidor de golosinas ha estado sirviendo a
+                        Argentina
+                        con una amplia
+                        selección de productos deliciosos. Con una historia llena de crecimiento, innovación y
+                        dedicación,
+                        nuestra empresa se ha convertido en una referencia para los amantes de las golosinas en todo el
+                        país.
+                    </p>
+                    <a class="vermas" href="Historia.html">Ver mas &nbsp &nbsp 👉🏻
+                        <!-- <img class= "animada"src="img/animada.gif" alt="Conocenos" style="text-align:start;" > -->
+                    </a>
+                    <div class="media-icons">
+
+                        <!-- <a href="#">facebook<i class="fa-facebook"></i></a>
+            <a href="#">instagram<i class="instagram"></i></a> -->
+                    </div>
+                </div>
+        </section>
+        <!-- <video class="slidevideo" src="/vid/historia.mp4" autoplay muted loop></video> -->
         <!-- <video class="slidevideo" src="/vid/productos.mp4" autoplay muted loop></video>
         <video class="slidevideo" src="/vid/cuenta.mp4" autoplay muted loop></video> -->
-        <div class="nu-his">
-            <h2>Nuestra Historia</h2>
-        </div>
-       
-        <div class="content">
-           
-            <p class="parraf">Desde hace 30 años, nuestro distribuidor de golosinas ha estado sirviendo a Argentina con una amplia
-                selección de productos deliciosos. Con una historia llena de crecimiento, innovación y dedicación,
-                nuestra empresa se ha convertido en una referencia para los amantes de las golosinas en todo el país.
-            </p>
-            <a class="vermas" href="Historia.html">Ver mas &nbsp  &nbsp 👉🏻
-                <!-- <img class= "animada"src="img/animada.gif" alt="Conocenos" style="text-align:start;" > -->
-            </a>
-        <div class="media-icons">
-            
-            <!-- <a href="#">facebook<i class="fa-facebook"></i></a>
-            <a href="#">instagram<i class="instagram"></i></a> -->
-        </div>
+        <section class="no-parallax">
+            <div><br><br></div>  
+            <div class="contenedor-logos">
+                <div class="contenedor1">
+                    <div class="slider-contenedor">
+                        <div class="slider-test1">
+            <img class="loco-marcas" src="img/logo misky.webp" alt="dolca">
+            <img class="loco-marcas" src="img/lipo logo.png" alt="dolca">
+            <img class="loco-marcas" src="img/logo parnor.jpg" alt="dolca">
+            <img class="loco-marcas" src="img/logo-don-satur-RGB.png" alt="dolca">
+            <img class="loco-marcas" src="img/logo_trio.png" alt="dolca">
+            <img class="loco-marcas" src="img/logo-mogul.png" alt="dolca">
+            <img class="loco-marcas" src="img/bon-o-bon-logo.png" alt="dolca">
+            <img class="loco-marcas" src="img/butter toffees logo.jpg" alt="dolca">
+            <img class="loco-marcas" src="img/JorgitoLogo.webp" alt="dolca">
+        
+        </div></div></div></div>
+            <div><br><br></div>
+        </section>
     </section>
 </body>
 
@@ -97,5 +191,6 @@
     </div>
 </footer>
 
+<script src="/js/carrusel.js"></script>
 
 </html>
