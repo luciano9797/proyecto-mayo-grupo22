@@ -36,20 +36,16 @@
   }
 
 
-  body {
-      padding-top: 260px; /* agrego espacio arriba porque se me superpone todo*/
-    }
-
-  nav {
+  /* nav {
       position: fixed;
       top:0;
       left: 0;
       width: 100%;
       z-index: 2
       
-  }
+  } */
 
-  nav a {
+  /* nav a {
       font-weight: bold;
       font-style: italic;
       text-decoration: none;
@@ -58,24 +54,67 @@
       display: inline-block;
       padding: 10px;
       margin: 0 10px;
-  }
+  } */
 
-  nav a:hover {
+  /* nav a:hover {
       background-color: #000000;
-  }
+  } */
+  
+  header{
+    font-family: "Pathway Extreme", sans-serif;
+    display: flex;
+    min-height: 70px;
+    background-color: #7F669D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover{
+  color: black;
+}
+
+.logo-img{
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logo-img:hover{
+  rotate: 360deg;
+  transition: 1s;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav a{
+  font-family: "Pathway Extreme", sans-serif;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+nav a:hover{
+  color: black;
+}
 
 
-
-  .loguito{
+  /* .loguito{
       border-radius: 130px;
       margin: 5px;
   }
   .loguito:hover{
       transform: rotate(360deg);
       transition: 1s;
-  }
+  } */
 
-
+/* 
   .logo-container{
       
       margin: auto;
@@ -91,7 +130,7 @@
       z-index: 1;
 
 
-  }
+  } */
 
 
   .historia-container{
@@ -254,9 +293,9 @@
     }
   
     
-    .logo-container {
+    /* .logo-container {
       grid-template-rows: 200px;
-    }
+    } */
   
     .historia-container {
       grid-template-rows: 250px;
@@ -282,9 +321,9 @@
   }
 
   /* Ajustes para el contenedor principal */
-  .logo-container {
+  /* .logo-container {
     grid-template-rows: 150px;
-  }
+  } */
 
   .historia-container {
     grid-template-rows: 200px;
