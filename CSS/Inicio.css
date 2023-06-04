@@ -157,7 +157,7 @@ nav a:hover {
 }
 
 .logo-img{
-    height: 70px;
+    height: 100px;
     margin-right: 10px;
 }
 
@@ -170,9 +170,7 @@ nav a:hover {
     font-weight: bold;
     font-size: 1.5em;
 }
-/* .slidevideo{
-    width: 100%;
-} */
+
 .titulo2{
  
  color: #000000 ;
