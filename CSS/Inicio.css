@@ -37,14 +37,18 @@
         height:63px;
         line-height: 66px;
 	}
+    header{
+        flex-direction: column;
+    }
+    nav{
+        margin-left: 5rem;
+    }
 }
 
 
 .fechayhora{
-    color:#4d0b42;
-   
+    color:#4d0b42; 
 }
-
 
 header{
     font-family: "Pathway Extreme", sans-serif;
@@ -55,12 +59,61 @@ header{
     align-items: center;
     padding: 10px;
 }
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover{
+  color: black;
+}
+
+.logo-img{
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logo-img:hover{
+  rotate: 360deg;
+  transition: 1s;
+}
+
+.logo-nombre{
+    font-size: 200%;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav a{
+  font-family: "Pathway Extreme", sans-serif;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+nav a:hover{
+  color: black;
+}
+
+/* header{
+    font-family: "Pathway Extreme", sans-serif;
+    display: flex;
+    min-height: 70px;
+    background-color: #7F669D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} */
 .horario{
     display: flex;
     justify-content: right;
+    padding-top: 0.3rem;
   }
 .fecha{
-    width: 12rem;
+    width: 10rem;
     height: 1rem;
     padding: 0.1rem;
     border: solid;
@@ -75,7 +128,7 @@ header{
   } 
 
   .hora{
-    width: 10rem;
+    width: 8rem;
     height: 1rem;
     padding: 0.1rem;
     border: solid;
@@ -89,26 +142,20 @@ header{
   }
 
 .content{
-    
-
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    
-    
+    position: relative;   
     justify-content: center;
     align-content: top;
     padding: 35px;
-
 }
 
-a img{
+/* a img{
     height: 200px;
     border-radius: 150px;
-
-}
+} */
 
   .parraf{
     
@@ -120,10 +167,10 @@ a img{
     
 }
 
-
-nav {
-    padding-left: 10px;
+.nav{
+    margin-left: 33rem;
 }
+/*
     
 nav a {
     
@@ -137,7 +184,7 @@ nav a {
 
 nav a:hover {
     background-color: #000000;
-}
+} */
 
 .nu-his{
     padding: 10px;
@@ -145,7 +192,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.logo{
+/* .logo{
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -164,13 +211,13 @@ nav a:hover {
 .logo-img:hover{
     rotate: 360deg;
     transition: 1s;
-}
+} */
 
-.logo-nombre{
+/* .logo-nombre{
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
-}
+} */
 
 .titulo2{
  
@@ -291,10 +338,10 @@ h2 {
     overflow: hidden;
     margin: auto;
   }
-
+/* 
   img{
     width: 80%;
-  }
+  } */
 
   .slider-contenedor{
     display: flex;

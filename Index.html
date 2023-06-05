@@ -23,30 +23,71 @@
     <!-- fin botón de whatsapp -->
 
 </head>
+<header>
+       <!-- botón de whatsapp -->
+    <a class="btn-wsp" target="_blank"
+        href="https://wa.me/541131057366?text=Hola,%20estoy%20interesado%20en%20los%20productos,%20%C2%BFpueden%20decirme%20m%C3%A1s%20sobre%20las%20zonas%20de%20entrega%20y%20costos?">
+        <i class="fa-brands fa-whatsapp"></i>
+
+   </a>
+   <!-- FIN botón de whatsapp -->
+    <a href="Index.html" class="logo">
+        <img src="img/logo.png" alt="logoMediaHora" class="logo-img">
+        <h2 class="logo-nombre">Media Hora</h2>
+    </a>
+    <nav>
+        <div style="margin-left: 3rem;">
+            <a href="Index.html" class="nav-link">Inicio</a>
+            <a href="Catalogo.html" class="nav-link">Productos</a>
+            <a href="Historia.html" class="nav-link">Historia</a>
+        </div>
+        
+
+        <!-- agrego fecha y hora mediante la API World Time API-->
+
+        <div class="horario">
+            <div class="fecha">
+                <p> <i class="fa-regular fa-calendar-days"></i>
+                    Fecha:
+                    <span id="fecha" class="fechayhora"></span>
+                    <script src="js/hora_usser.js"></script>
+                </p>
+            </div>
+            <div class="hora">
+                <p> <i class="fa-solid fa-clock"></i>
+                    Hora:
+                    <span id="hora" class="fechayhora"></span>
+                    <script src="js/hora_usser.js"></script>
+                </p>
+            </div>
+        </div>
+        <!-- fin API -->
+    </nav>
+</header>
 
 
 
 
 <body>
-    <header class="headerlinks">
+    <!-- <header class="headerlinks">
         <a href="Index.html" class="logo">
             <img src="img/logo.png" class="logo-img">
             <h2 class="logo-nombre">Media Hora</h2>
         </a>
 
-        <!-- botón de whatsapp -->
+        
         <a class="btn-wsp" target="_blank"
             href="https://wa.me/541131057366?text=Hola,%20estoy%20interesado%20en%20los%20productos,%20%C2%BFpueden%20decirme%20m%C3%A1s%20sobre%20las%20zonas%20de%20entrega%20y%20costos?">
             <i class="fa-brands fa-whatsapp"></i>
 
         </a>
-        <!-- FIN botón de whatsapp -->
+      
         <nav>
             <a class="navlink" href="Catalogo.html">Productos</a>
             <a class="navlink" href="Historia.html">Historia</a>
             <a class="navlink" href="inicioSesion.html">Contacto</a>
             
-            <!-- agrego fecha y hora mediante la API World Time API-->
+          
             <div class="horario">
                 <div class="fecha">
                     <p> <i class="fa-regular fa-calendar-days"></i>
@@ -64,13 +105,13 @@
                     </p>
                 </div>
             </div>
-            <!-- fin API -->
+          
 
         </nav>
 
 
 
-    </header>
+    </header> -->
     <section class="home">
 
         <section class="no-parallax">
