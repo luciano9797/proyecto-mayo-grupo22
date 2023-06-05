@@ -309,12 +309,15 @@ nav a:hover{
   /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
   /* Ajustes para la navegación */
-  nav {
+  header{
+    flex-direction: column;
+}
+  /* nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-  }
+  } */
 
   nav a {
     margin: 5px;
