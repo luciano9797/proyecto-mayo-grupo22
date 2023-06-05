@@ -34,31 +34,6 @@
       font-family: "Pathway Extreme",sans-serif;
         
   }
-
-
-  /* nav {
-      position: fixed;
-      top:0;
-      left: 0;
-      width: 100%;
-      z-index: 2
-      
-  } */
-
-  /* nav a {
-      font-weight: bold;
-      font-style: italic;
-      text-decoration: none;
-      color: #ffffff;
-      transition: background-color 0.3s ease-in-out;
-      display: inline-block;
-      padding: 10px;
-      margin: 0 10px;
-  } */
-
-  /* nav a:hover {
-      background-color: #000000;
-  } */
   
   header{
     font-family: "Pathway Extreme", sans-serif;
@@ -103,35 +78,6 @@ nav a{
 nav a:hover{
   color: black;
 }
-
-
-  /* .loguito{
-      border-radius: 130px;
-      margin: 5px;
-  }
-  .loguito:hover{
-      transform: rotate(360deg);
-      transition: 1s;
-  } */
-
-/* 
-  .logo-container{
-      
-      margin: auto;
-      justify-content: center;
-      border: 2px double rgb(237, 71, 243);
-      grid-template-rows: 260px;
-      background-color: #7F669D;
-
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 1;
-
-
-  } */
-
 
   .historia-container{
       overflow:auto;
@@ -292,11 +238,6 @@ nav a:hover{
       margin: 5px;
     }
   
-    
-    /* .logo-container {
-      grid-template-rows: 200px;
-    } */
-  
     .historia-container {
       grid-template-rows: 250px;
     }
@@ -312,21 +253,12 @@ nav a:hover{
   header{
     flex-direction: column;
 }
-  /* nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  } */
 
   nav a {
     margin: 5px;
   }
 
   /* Ajustes para el contenedor principal */
-  /* .logo-container {
-    grid-template-rows: 150px;
-  } */
 
   .historia-container {
     grid-template-rows: 200px;

@@ -98,15 +98,6 @@ nav a:hover{
   color: black;
 }
 
-/* header{
-    font-family: "Pathway Extreme", sans-serif;
-    display: flex;
-    min-height: 70px;
-    background-color: #7F669D;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-} */
 .horario{
     display: flex;
     justify-content: right;
@@ -152,11 +143,6 @@ nav a:hover{
     padding: 35px;
 }
 
-/* a img{
-    height: 200px;
-    border-radius: 150px;
-} */
-
   .parraf{
     
     margin: 3px;
@@ -170,54 +156,12 @@ nav a:hover{
 .nav{
     margin-left: 33rem;
 }
-/*
-    
-nav a {
-    
-    font-family: "Pathway Extreme", sans-serif;
-    font-weight: 600;
-    padding-right: 10px;
-    text-decoration: none;
-    color: #FFF;    
-    
-}
-
-nav a:hover {
-    background-color: #000000;
-} */
 
 .nu-his{
     padding: 10px;
     text-align: center;
     font-weight: bold;
 }
-
-/* .logo{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #FFF;
-}
-
-.logo:hover{
-    color: black;
-}
-
-.logo-img{
-    height: 100px;
-    margin-right: 10px;
-}
-
-.logo-img:hover{
-    rotate: 360deg;
-    transition: 1s;
-} */
-
-/* .logo-nombre{
-    font-weight: bold;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
-} */
 
 .titulo2{
  
@@ -338,10 +282,6 @@ h2 {
     overflow: hidden;
     margin: auto;
   }
-/* 
-  img{
-    width: 80%;
-  } */
 
   .slider-contenedor{
     display: flex;
