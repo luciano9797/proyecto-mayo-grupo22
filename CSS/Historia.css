@@ -151,9 +151,10 @@ nav a:hover{
       
   }
   .politica-calidad-container {
+      overflow:scroll;
       display: grid;
-      grid-template-columns: 0.5fr 0.5fr 2fr;
-      grid-template-rows: auto;
+      grid-template-columns: 0.5fr 2fr;
+      grid-template-rows: 330px;
       justify-content: center;
       align-content: center;
       background-color: #E2F7F2;
@@ -266,5 +267,15 @@ nav a:hover{
 
   .contenedor-VMV {
     grid-template-columns: 1fr;
+  }
+  .img-politica{
+    height: 100px;
+
+  }
+
+  .animada{
+    height: 100px;
+    width: auto;
+
   }
 }
